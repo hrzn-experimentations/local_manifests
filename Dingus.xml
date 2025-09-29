@@ -11,24 +11,28 @@
     <project path="vendor/DeltaAddons" remote="hrzndelta" name="android_vendor_DeltaAddons" revision="refs/heads/main"/>
         <!--Pixels-->
     <project path="kernel/google/msm-4.9" remote="github" name="LineageOS/android_kernel_google_msm-4.9"/>
-    <project path="device/google/redbull" remote="github" name="LineageOS/android_device_google_redbull"/>
+    <project path="kernel/google/msm-4.14" remote="github" name="LineageOS/android_kernel_google_msm-4.14"/>
+    <!--<project path="device/google/redbull" remote="github" name="LineageOS/android_device_google_redbull"/>-->
+    <!--<project path="kernel/google/redbull" remote="hrzndelta" name="android_kernel_google_redbull"/>-->
     <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common"/>
     <project path="packages/apps/ElmyraService" remote="github" name="LineageOS/android_packages_apps_ElmyraService"/>
         <!--Xiaomi + Mediatek-->
-    <project path="hardware/xiaomi" remote="rodin-devs" name="android_hardware_xiaomi"/>
-    <project path="hardware/mediatek" remote="rodin-devs" name="android_hardware_mediatek"/>
-    <project path="device/mediatek/sepolicy/vndr" remote="rodin-devs" name="android_device_mediatek_sepolicy_vndr"/>
+    <!--<project path="hardware/xiaomi" remote="rodin-devs" name="android_hardware_xiaomi"/>-->
+    <!--<project path="hardware/mediatek" remote="rodin-devs" name="android_hardware_mediatek"/>-->
+    <!--<project path="device/mediatek/sepolicy/vndr" remote="rodin-devs" name="android_device_mediatek_sepolicy_vndr"/>-->
 
     <!--Device Specific-->
-        <!-- Barbet -->
-    <project path="kernel/google/redbull" remote="hrzndelta" name="android_kernel_google_redbull"/>
-    <project path="device/google/barbet" remote="hrzndelta" name="android_device_google_barbet"/>
-    <project path="vendor/google/barbet" remote="hrzndelta" name="proprietary_vendor_google_barbet"/>
+        <!-- Bramble -->
+    <!--<project path="device/google/bramble" remote="hrzndelta" name="android_device_google_bramble"/>-->
+    <!--<project path="vendor/google/bramble" remote="hrzndelta" name="proprietary_vendor_google_bramble"/>-->
         <!-- Blueline -->
     <project path="device/google/crosshatch" remote="hrzndelta" name="android_device_google_crosshatch"/>
     <project path="vendor/google/blueline" remote="hrzndelta" name="proprietary_vendor_google_blueline"/>
+        <!-- Sunfish -->
+    <project path="device/google/sunfish" remote="hrzndelta" name="android_device_google_sunfish"/>
+    <project path="vendor/google/sunfish" remote="hrzndelta" name="proprietary_vendor_google_sunfish"/>
         <!-- Rodin -->
-    <project path="device/xiaomi/rodin" remote="hrzndelta" name="android_device_xiaomi_rodin"/>
-    <project path="device/xiaomi/rodin-kernel" remote="rodin-devs" name="android_device_xiaomi_rodin-kernel"/>
-    <project path="vendor/xiaomi/rodin" remote="hrzndelta" name="proprietary_vendor_xiaomi_rodin"/>
+    <!--<project path="device/xiaomi/rodin" remote="hrzndelta" name="android_device_xiaomi_rodin"/>-->
+    <!--<project path="device/xiaomi/rodin-kernel" remote="rodin-devs" name="android_device_xiaomi_rodin-kernel"/>-->
+    <!--<project path="vendor/xiaomi/rodin" remote="hrzndelta" name="proprietary_vendor_xiaomi_rodin"/>-->
 </manifest>

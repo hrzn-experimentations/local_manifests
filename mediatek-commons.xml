@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="hardware/mediatek" remote="rodin-devs" name="android_hardware_mediatek"/>
+    <project path="device/mediatek/sepolicy/vndr" remote="rodin-devs" name="android_device_mediatek_sepolicy_vndr"/>
+</manifest>

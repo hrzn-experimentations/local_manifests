@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="kernel/google/msm-4.14" remote="github" name="LineageOS/android_kernel_google_msm-4.14"/>
+    <project path="device/google/sunfish" remote="hrzndelta" name="android_device_google_sunfish"/>
+    <project path="vendor/google/sunfish" remote="hrzndelta" name="proprietary_vendor_google_sunfish"/>
+</manifest>

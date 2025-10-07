@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!--<project path="device/google/bramble" remote="hrzndelta" name="android_device_google_bramble"/>-->
-    <!--<project path="vendor/google/bramble" remote="hrzndelta" name="proprietary_vendor_google_bramble"/>-->
+    <!--<project path="device/google/bramble" remote="hrzn-experimentations-specific" name="android_device_google_bramble"/>-->
+    <!--<project path="vendor/google/bramble" remote="hrzn-experimentations-specific" name="proprietary_vendor_google_bramble"/>-->
 </manifest>

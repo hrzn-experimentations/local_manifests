@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="hardware/xiaomi" remote="rodin-devs" name="android_hardware_xiaomi"/>
-    <project path="device/xiaomi/rodin" remote="hrzndelta" name="android_device_xiaomi_rodin"/>
+    <project path="device/xiaomi/rodin" remote="hrzn-experimentations-specific" name="android_device_xiaomi_rodin"/>
     <project path="device/xiaomi/rodin-kernel" remote="rodin-devs" name="android_device_xiaomi_rodin-kernel"/>
-    <project path="vendor/xiaomi/rodin" remote="hrzndelta" name="proprietary_vendor_xiaomi_rodin"/>
+    <project path="vendor/xiaomi/rodin" remote="hrzn-experimentations-specific" name="proprietary_vendor_xiaomi_rodin"/>
 </manifest>

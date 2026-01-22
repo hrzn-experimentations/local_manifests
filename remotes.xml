@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="aosp-playground"
+             fetch="https://github.com/aosp-playground"
+             revision="refs/heads/sixteen-qpr1" />
+
+    <remote  name="garnet"
+             fetch="https://github.com/garnet-random"
+             revision="refs/heads/lineage-23.0" />
+
+    <remote  name="hrzndeltaprjkts"
+             fetch="https://github.com/hrzndeltaprjkts"
+             revision="refs/heads/lineage-23.1" />
+
+    <remote  name="mt6877"
+             fetch="https://github.com/mt6877-a34x"
+             revision="refs/heads/lineage-23.1/staging" />
+
+    <remote  name="mt6899"
+             fetch="https://github.com/mt6899-rodin" />
+</manifest>
+

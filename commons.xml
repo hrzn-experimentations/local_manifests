@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- dolby -->
+    <project path="device/oneplus/dolby" name="android_device_oneplus_dolby" remote="aosp-playground"  />
+    <project path="vendor/oneplus/dolby" name="proprietary_vendor_oneplus_dolby" remote="aosp-playground" />
+
+    <!-- google -->
+    <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common"/>
+
+    <!-- samsung -->
+    <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" />
+    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" />
+    <project path="hardware/samsung_slsi/fm" name="LineageOS/android_hardware_samsung_slsi_fm" remote="github" />
+    <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remote="github" />
+    <project path="hardware/samsung_slsi/nfc" name="LineageOS/android_hardware_samsung_slsi_nfc" remote="github" />
+    <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" />
+    <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" />
+    <project path="hardware/samsung_slsi-linaro/config" name="LineageOS/android_hardware_samsung_slsi-linaro_config" remote="github" />
+    <project path="hardware/samsung_slsi-linaro/openmax" name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" remote="github" />
+    <project path="hardware/samsung_slsi-linaro/codec2" name="LineageOS/android_hardware_samsung_slsi-linaro_codec2" remote="github" />
+    <project path="hardware/samsung_slsi-linaro/interfaces" name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" remote="github" />
+    <project path="hardware/samsung_slsi-linaro/graphics" name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" remote="github" />
+    <project path="hardware/samsung_slsi-linaro/exynos5" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" remote="github" />
+    <project path="hardware/samsung_slsi-linaro/exynos" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" remote="github" />
+
+    <!-- xiaomi -->
+    <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi"/>
+
+    <!-- mediatek -->
+    <project path="device/mediatek/sepolicy/vndr" remote="github" name="LineageOS/android_device_mediatek_sepolicy_vndr"/>
+    <project path="hardware/mediatek" remote="github" name="LineageOS/android_hardware_mediatek"/>
+</manifest>

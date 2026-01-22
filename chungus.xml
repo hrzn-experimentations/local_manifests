@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- chungus sized device goes here (>6.3'). now supporting android 16 QPR1! -->
+<manifest>
+
+    <!-- a34x -->
+    <project path="device/samsung/a34x" name="android_device_samsung_a34x" remote="mt6877" />
+    <!-- no kernel repo available -->
+    <!-- no vendor repo available -->
+
+    <!-- garnet -->
+    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="hrzndeltaprjkts" />
+    <project path="device/xiaomi/garnet-miuicamera" name="android_device_xiaomi_garnet-miuicamera" remote="garnet" revision="lineage-22.2" />
+    <project path="kernel/xiaomi/sm7435" name="android_kernel_xiaomi_sm7435" remote="garnet" />
+    <project path="kernel/xiaomi/sm7435-devicetrees" name="android_kernel_xiaomi_sm7435-devicetrees" remote="garnet"/>
+    <project path="kernel/xiaomi/sm7435-modules" name="android_kernel_xiaomi_sm7435-modules" remote="garnet"/>
+    <project path="vendor/xiaomi/garnet" name="proprietary_vendor_xiaomi_garnet" remote="garnet" />
+
+    <!-- rodin -->
+    <project path="device/xiaomi/rodin" name="android_device_xiaomi_rodin" remote="hrzndeltaprjkts" />
+    <project path="device/xiaomi/rodin-kernel" name="android_device_xiaomi_rodin-kernel" remote="mt6899" revision="lineage-22.2" />
+    <project path="device/xiaomi/rodin-miuicamera" name="android_device_xiaomi_rodin-miuicamera" remote="mt6899" revision="lineage-23.0" />
+</manifest>

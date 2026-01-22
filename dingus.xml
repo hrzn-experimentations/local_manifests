@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dingus sized device goes here (6.3'<). now supporting Android 16 QPR1! -->
+<manifest>
+    <!-- a7y18lte --> <!-- planned -->
+    <!-- <project path="device/samsung/a7y18lte" remote="hrzndeltaprjkts" name="android_device_samsung_a7y18lte" /> -->
+    <!-- <project path="device/samsung/exynos7885-common" remote="hrzndeltaprjkts" name="android_device_samsung_exynos7885-common" /> -->
+    <!-- <project path="kernel/samsung/exynos7885-common" remote="hrzndeltaprjkts" name="android_kernel_samsung_exynos7885-common" /> -->
+    <!-- <project path="vendor/samsung/exynos7885-common" remote="hrzndeltaprjkts" name="android_vendor_samsung_exynos7885-common" /> -->
+
+    <!-- blueline --> <!-- planned -->
+    <!-- <project path="device/google/blueline" remote="hrzndeltaprjkts" name="android_device_google_blueline" /> -->
+    <!-- <project path="kernel/google/msm-4.9" remote="hrzndeltaprjkts" name="android_kernel_google_msm-4.9" /> -->
+    <!-- <project path="packages/apps/ElmyraService" remote="DeltaPrjkts" name="android_packages_apps_ElmyraService" /> -->
+
+    <!-- bramble -->
+    <project path="device/google/bramble" remote="hrzndeltaprjkts" name="android_device_google_bramble" />
+    <project path="device/google/redbull" remote="github" name="LineageOS/android_device_google_redbull" />
+    <project path="kernel/google/redbull" remote="github" name="LineageOS/android_kernel_google_redbull" />
+
+    <!-- sunfish --> <!-- planned -->
+    <!-- <project path="device/google/sunfish" remote="hrzndeltaprjkts" name="android_device_google_sunfish" /> -->
+    <!-- <project path="kernel/google/msm-4.14" remote="github" name="LineageOS/android_kernel_google_msm-4.14" /> -->
+</manifest>
